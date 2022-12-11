@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: flex;
+    justify-content: row;
+    flex-wrap: wrap;
+}
+.gallery img {
+    height: 300px;
+    width: 400px;
+    border-radius: 3px;
+    object-fit: cover;
+}
